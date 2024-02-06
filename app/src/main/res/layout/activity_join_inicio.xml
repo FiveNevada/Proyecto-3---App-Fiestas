@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackk"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".JoinInicio">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Space
+        android:layout_width="305dp"
+        android:layout_height="58dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center"
+        android:letterSpacing=".05"
+        android:text="@string/join_an_event"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="10dp"
+            android:hint="@string/code"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxStrokeColor="@null"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:helperTextEnabled="false"
+            app:hintAnimationEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/joinCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#FFBF00"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/join"
+            android:textAllCaps="true"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="326dp"
+        android:layout_height="293dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Wanna create an event?"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/registerNow"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+
+            android:gravity="center"
+            android:shadowColor="#673AB7"
+            android:text="@string/register"
+            android:textColor="#FFEB3B"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+
+            android:gravity="center"
+            android:shadowColor="#673AB7"
+            android:text="or"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/loginNow"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:shadowColor="#673AB7"
+            android:text="@string/login"
+            android:textColor="#FFEB3B"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

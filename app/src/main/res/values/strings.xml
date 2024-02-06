@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">App_DM</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_account_yet">No account yet?</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="code">Code</string>
+    <string name="join_an_event">Join an event!</string>
+    <string name="join">Join</string>
+    <string name="login_now">Login Now</string>
+    <string name="home">Home</string>
+    <string name="my_playlists">My Playlists</string>
+    <string name="queue">Queue</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account">Account</string>
+    <string name="playlists">Playlists</string>
+    <string-array name="roles">
+        <item>Administrador</item>
+        <item>Usuario</item>
+    </string-array>
+
+</resources>

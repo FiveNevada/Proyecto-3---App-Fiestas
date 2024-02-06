@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Main" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">#919191</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+
+
+    </style>
+
+    <style name="Base.Theme.App_DM." parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#FFC107</item>
+    </style>
+
+    <style name="TextBox">
+        <item name="android:textColor">#FF5722</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="Floating" parent="Widget.Design.FloatingActionButton">
+        <!---rest of your style-->
+        <item name="android:foreground">@drawable/gradient</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayExtended" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+
+
+    </style>
+
+
+</resources>
